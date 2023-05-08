@@ -1,0 +1,32 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gallery
+{
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+
+}
+.gallery td
+{
+    height: 200px;
+    width: 200px;
+}
+.gallery img
+{
+    display: block;
+    opacity: 0.5;
+    filter: grayscale(100%);
+    pointer-events: none;
+}
+td.active img
+{
+    opacity: 1;
+    filter: grayscale(0%);
+}
+
+

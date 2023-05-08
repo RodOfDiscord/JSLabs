@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product list</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<table>
+    <caption><h4>Список товарів</h4></caption>
+    <tr>
+        <td>Шорти</td>
+        <td><button onclick="OrderShort()" >Замовити</button></td>
+    </tr>
+    <tr>
+        <td>Сорочка</td>
+        <td><button onclick="OrderShirt()">Замовити</button></td>
+    </tr>
+    <tr>
+        <td>Джинси</td>
+        <td><button onclick="OrderJeans()">Замовити</button></td>
+    </tr>
+</table>
+
+<table>
+    <caption><h4>Кошик</h4></caption>
+    <thead>
+    <td>Товар</td>
+    <td>Кількість</td>
+    </thead>
+    <tr>
+        <td >Шорти</td>
+        <td id="ShortsCounter">0</td>
+    </tr>
+    <tr>
+        <td >Сорочка</td>
+        <td id="ShirtsCounter">0</td>
+    </tr>
+    <tr>
+        <td >Джинси</td>
+        <td id="JeansCounter">0</td>
+    </tr>
+</table>
+</body>
+</html>
